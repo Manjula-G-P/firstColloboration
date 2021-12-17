@@ -1,0 +1,49 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("http://cdn30.us1.fansshare.com/image/backgroundhd/good-background-hd-wallpapers-wallpaper-1552898069.jpg");
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 25px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding:5px 20px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    padding:180px;
+    color:#fff;
+    
+}
+.title p{
+    margin-top: 50px;
+}

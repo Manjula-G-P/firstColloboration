@@ -47,3 +47,12 @@ ul li.active a{
 .title p{
     margin-top: 50px;
 }
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    border-color: transparent;
+    cursor: pointer;
+}
